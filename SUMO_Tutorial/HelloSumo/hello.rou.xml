@@ -1,0 +1,8 @@
+<routes>
+    <vType accel="1.0" decel="1.0" id="Car1" length="5.0" maxSpeed="10.0" sigma="0.0" /> <!--id表示第一种类型的车-->
+    <vType accel="5.0" decel="1.0" id="Car2" length="7.0" maxSpeed="10.0" sigma="0.0" /> <!--id表示第一种类型的车-->
+    <route id="route0" edges="1to2 2to3 3to4"/>
+    <route id="route1" edges="1to4"/>
+    <vehicle depart="1" id="veh0" route="route0" type="Car1" />
+    <vehicle depart="2" id="veh1" route="route1" type="Car2" />
+</routes>
