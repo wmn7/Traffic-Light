@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-23 18:02:42 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="../hello.net.xml"/>
+        <route-files value="hello.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="hello.rou.xml"/>
+        <human-readable-time value="true"/>
+        <alternatives-output value="hello.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <randomize-flows value="true"/>
+    </processing>
+
+    <defaults>
+        <departlane value="random"/>
+    </defaults>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="00.0" depart="00:00:070.58" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.1" depart="00:00:070.91" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.2" depart="00:00:080.27" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.3" depart="00:00:090.51" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.4" depart="00:00:090.74" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.5" depart="00:00:110.31" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.6" depart="00:00:120.69" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.7" depart="00:00:130.47" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.8" depart="00:00:150.39" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.9" depart="00:00:160.83" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.10" depart="00:00:170.24" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.11" depart="00:00:180.4" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.12" depart="00:00:180.39" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.13" depart="00:00:190.6" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.14" depart="00:00:200.10" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.15" depart="00:00:260.85" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.16" depart="00:00:300.99" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.17" depart="00:00:310.95" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.18" depart="00:00:330.45" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.19" depart="00:00:330.65" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.20" depart="00:00:350.35" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.21" depart="00:00:370.69" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.22" depart="00:00:380.16" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.23" depart="00:00:430.21" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.24" depart="00:00:430.24" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.25" depart="00:00:490.84" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.26" depart="00:00:520.36" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.27" depart="00:00:550.65" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.28" depart="00:00:560.85" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.29" depart="00:00:580.77" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.30" depart="00:01:000.23" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.31" depart="00:01:010.96" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.32" depart="00:01:060.58" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.33" depart="00:01:080.48" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.34" depart="00:01:090.59" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.35" depart="00:01:120.24" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.36" depart="00:01:130.88" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.37" depart="00:01:150.18" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.38" depart="00:01:150.85" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.39" depart="00:01:170.86" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.40" depart="00:01:190.10" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.41" depart="00:01:230.17" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.42" depart="00:01:230.72" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.43" depart="00:01:240.41" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.44" depart="00:01:280.65" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.45" depart="00:01:280.82" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.46" depart="00:01:310.84" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.47" depart="00:01:340.34" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.48" depart="00:01:390.33" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="00.49" depart="00:01:390.64" departLane="random">
+        <route edges="1si 2o"/>
+    </vehicle>
+    <vehicle id="11.0" depart="00:01:420.59" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.1" depart="00:01:430.52" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.2" depart="00:01:440.7" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.3" depart="00:01:440.46" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.0" depart="00:01:440.76" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.4" depart="00:01:450.6" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.5" depart="00:01:450.40" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.6" depart="00:01:460.63" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.7" depart="00:01:460.87" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.1" depart="00:01:470.20" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.8" depart="00:01:470.38" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.9" depart="00:01:470.94" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.2" depart="00:01:500.31" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.3" depart="00:01:500.41" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.4" depart="00:01:510.32" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.5" depart="00:01:520.79" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.6" depart="00:01:530.11" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.10" depart="00:01:570.22" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.11" depart="00:01:570.46" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.7" depart="00:01:580.1" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.8" depart="00:01:580.13" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.12" depart="00:01:580.62" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.9" depart="00:01:590.60" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.13" depart="00:02:000.63" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.14" depart="00:02:040.58" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.10" depart="00:02:050.67" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.11" depart="00:02:070.36" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.15" depart="00:02:070.48" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.12" depart="00:02:070.62" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.16" depart="00:02:100.42" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.13" depart="00:02:100.47" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.14" depart="00:02:110.28" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.17" depart="00:02:110.30" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.18" depart="00:02:120.43" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.19" depart="00:02:120.55" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.15" depart="00:02:120.80" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.20" depart="00:02:140.39" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.16" depart="00:02:150.32" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.17" depart="00:02:150.86" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.18" depart="00:02:160.17" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.21" depart="00:02:170.16" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.19" depart="00:02:170.70" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.22" depart="00:02:180.40" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.20" depart="00:02:200.65" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.21" depart="00:02:200.75" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.23" depart="00:02:210.55" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.24" depart="00:02:220.63" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.22" depart="00:02:230.22" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.25" depart="00:02:230.64" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.26" depart="00:02:250.13" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.27" depart="00:02:260.4" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.23" depart="00:02:260.91" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.28" depart="00:02:280.5" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.24" depart="00:02:280.66" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.25" depart="00:02:280.71" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.26" depart="00:02:310.51" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.27" depart="00:02:340.52" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.29" depart="00:02:340.95" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.30" depart="00:02:350.3" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.28" depart="00:02:350.48" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.29" depart="00:02:350.96" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.30" depart="00:02:360.9" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.31" depart="00:02:370.6" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.32" depart="00:02:370.85" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.33" depart="00:02:380.88" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.31" depart="00:02:380.99" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.32" depart="00:02:390.27" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.34" depart="00:02:430.41" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.35" depart="00:02:430.58" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.36" depart="00:02:430.62" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.37" depart="00:02:430.70" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.33" depart="00:02:460.88" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.34" depart="00:02:490.48" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.35" depart="00:02:490.49" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.38" depart="00:02:500.59" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.39" depart="00:02:520.29" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.36" depart="00:02:520.60" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.37" depart="00:02:520.68" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.40" depart="00:02:530.66" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.38" depart="00:02:550.69" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.41" depart="00:02:560.65" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.39" depart="00:02:570.3" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.40" depart="00:02:580.56" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.42" depart="00:03:000.26" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.43" depart="00:03:010.27" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.41" depart="00:03:010.70" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.44" depart="00:03:020.6" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.45" depart="00:03:020.19" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="11.46" depart="00:03:030.28" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.42" depart="00:03:030.51" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.43" depart="00:03:030.60" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.44" depart="00:03:050.4" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.45" depart="00:03:060.65" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.47" depart="00:03:080.50" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.46" depart="00:03:100.18" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="10.47" depart="00:03:100.37" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.48" depart="00:03:100.95" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.48" depart="00:03:160.64" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+    <vehicle id="11.49" depart="00:03:160.69" departLane="random">
+        <route edges="1si 4o"/>
+    </vehicle>
+    <vehicle id="10.49" depart="00:03:180.13" departLane="random">
+        <route edges="1si 3o"/>
+    </vehicle>
+</routes>

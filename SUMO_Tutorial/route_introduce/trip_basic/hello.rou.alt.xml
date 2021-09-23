@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-23 17:39:52 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="../hello.net.xml"/>
+        <route-files value="hello.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="hello.rou.xml"/>
+        <human-readable-time value="true"/>
+        <alternatives-output value="hello.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <randomize-flows value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="trip0" depart="00:00:00">
+        <routeDistribution last="0">
+            <route cost="85.53" probability="1.00000000" edges="1fi 1si 2o"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="trip1" depart="00:00:10">
+        <routeDistribution last="0">
+            <route cost="85.14" probability="1.00000000" edges="1fi 1si 3o"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="trip2" depart="00:00:20">
+        <routeDistribution last="0">
+            <route cost="87.20" probability="1.00000000" edges="1fi 1si 4o"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

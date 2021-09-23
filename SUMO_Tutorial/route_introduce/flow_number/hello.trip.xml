@@ -1,0 +1,12 @@
+<routes>
+    <!-- 第一个时间段 -->
+    <interval begin="0" end="100">
+        <flow id="00" from="1si" to="2o" number="50"/>
+    </interval>
+
+    <!-- 第二个时间段 -->
+    <interval begin="100" end="200">
+        <flow id="10" from="1si" to="3o" number="50"/>
+        <flow id="11" from="1si" to="4o" number="50"/>
+    </interval>
+</routes>

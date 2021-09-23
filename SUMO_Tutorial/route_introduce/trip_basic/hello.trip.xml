@@ -1,0 +1,5 @@
+<routes>
+    <trip id="trip0" depart="0" from="1fi" to="2o"/>
+    <trip id="trip1" depart="10" from="1fi" to="3o"/>
+    <trip id="trip2" depart="20" from="1fi" to="4o"/>
+</routes>
