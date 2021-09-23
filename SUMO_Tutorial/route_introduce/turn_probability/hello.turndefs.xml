@@ -1,0 +1,7 @@
+<edgeRelations>
+   <interval begin="0" end="3600">
+      <edgeRelation from="1si" to="3o" probability="0.4"/>
+      <edgeRelation from="1si" to="2o" probability="0.4"/>
+      <edgeRelation from="1si" to="4o" probability="0.2"/>
+   </interval>
+</edgeRelations>
