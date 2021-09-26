@@ -1,0 +1,8 @@
+<additional>
+    <tlLogic id="0" type="static" programID="0" offset="0">
+        <phase duration="37" state="GGGggrrrrrGGGggrrrrr"/> <!--绿灯-->
+        <phase duration="8"  state="yyyyyrrrrryyyyyrrrrr"/> <!--黄灯-->
+        <phase duration="37" state="rrrrrGGGggrrrrrGGGgg"/> <!--红灯-->
+        <phase duration="8"  state="rrrrryyyyyrrrrryyyyy"/> <!--黄灯-->
+    </tlLogic>
+</additional>
