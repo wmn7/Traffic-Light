@@ -4,10 +4,10 @@
     <vType id="type2" accel="1.2" decel="4.5" sigma="0.5" length="7" maxSpeed="120"/>
 
     <!-- 定义 flow, 每小时 1000 辆车 -->
-    <flow id="flow1" color="1,1,0"  begin="0" end= "7200" vehsPerHour="1000" type='type1'>
+    <flow id="flow1" color="1,1,0"  begin="0" end= "3600" vehsPerHour="1000" type='type1'>
         <route edges="3fi 3si 4o"/>
     </flow>
 
     <!-- 定义 flow, 每个 5 秒有车 -->
-    <flow id="flow2" color="0,1,1"  begin="0" end="7200" period="5" type="type2" from="1si" to="2o"/>
+    <flow id="flow2" color="0,1,1"  begin="0" end="3600" period="5" type="type2" from="1si" to="2o"/>
 </routes>
