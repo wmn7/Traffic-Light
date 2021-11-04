@@ -2,6 +2,6 @@
     <input>
         <net-file value="hello.net.xml"/>
         <route-files value="hello.rou.xml"/>
-        <additional-files value="../E1/E1.add.xml, ../E2/e2.add.xml"/>
+        <additional-files value="../E1/E1.add.xml, ../E2/e2.add.xml, ../E3/e3.add.xml"/>
     </input>
 </configuration>
