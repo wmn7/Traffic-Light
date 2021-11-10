@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-11-04 15:00:12 by Eclipse SUMO GUI Version 1.10.0
+<!-- generated on 2021-11-10 16:17:05 by Eclipse SUMO GUI Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="./env/hello.net.xml"/>
-        <route-files value="./env/hello.rou.xml"/>
-        <additional-files value="./env/../E1/E1.add.xml,./env/../E2/e2.add.xml"/>
+        <net-file value="/mnt/d/traffic_info/Traffic-Light/SUMO_Tutorial/traci_tutorial/traci_start/./SUMO_Detector_ENV/env/hello.net.xml"/>
+        <route-files value="/mnt/d/traffic_info/Traffic-Light/SUMO_Tutorial/traci_tutorial/traci_start/./SUMO_Detector_ENV/env/hello.rou.xml"/>
+        <additional-files value="/mnt/d/traffic_info/Traffic-Light/SUMO_Tutorial/traci_tutorial/traci_start/./SUMO_Detector_ENV/env/../E1/E1.add.xml,/mnt/d/traffic_info/Traffic-Light/SUMO_Tutorial/traci_tutorial/traci_start/./SUMO_Detector_ENV/env/../E2/e2.add.xml,/mnt/d/traffic_info/Traffic-Light/SUMO_Tutorial/traci_tutorial/traci_start/./SUMO_Detector_ENV/env/../E3/e3.add.xml"/>
     </input>
+
+    <traci_server>
+        <remote-port value="35531"/>
+    </traci_server>
 
 </configuration>
 -->
