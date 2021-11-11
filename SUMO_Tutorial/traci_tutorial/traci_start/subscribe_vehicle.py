@@ -2,11 +2,10 @@
 @Author: WANG Maonan
 @Date: 2021-11-10 11:04:08
 @Description: 测试 traci 的一些功能
-@LastEditTime: 2021-11-10 16:16:57
+@LastEditTime: 2021-11-10 16:45:41
 '''
 import os
 import sumolib
-from traci import domain
 
 def getAbsPath(file_relpath):
     """将相对路径转换为绝对路径
