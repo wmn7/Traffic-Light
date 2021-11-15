@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <net-file value="hello.net.xml"/>
+        <route-files value="hello.rou.xml"/>
+        <additional-files value="../E3/e3.add.xml"/>
+    </input>
+</configuration>
