@@ -2,7 +2,7 @@
 @Author: WANG Maonan
 @Date: 2021-11-10 16:44:16
 @Description: 修改车辆, 包括位置, 路径, 速度, 长度等
-@LastEditTime: 2021-11-11 14:17:01
+@LastEditTime: 2021-11-16 16:39:21
 '''
 import os
 import sumolib
@@ -31,7 +31,7 @@ else:
     conn = traci.getConnection('0')
 
 
-while traci.simulation.getMinExpectedNumber() > 0:
+while conn.simulation.getMinExpectedNumber() > 0:
     for vehID in conn.simulation.getDepartedIDList():
         _edges = conn.vehicle.getRoute(vehID) # 现在所在的 edge
         if '3fi' in _edges:
